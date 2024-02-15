@@ -1,0 +1,22 @@
+.slider {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 300%;
+    height: 28rem;
+}
+.slide {
+    width: 33.3333%;
+    flex-shrink: 0;
+    text-align: center;
+    height: 20rem;
+}
+.slides img {
+    width: 100%;
+    height: 78%;
+}

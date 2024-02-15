@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheets/general.css">
+    <link rel="stylesheet" href="../stylesheets/index.css">
+    <link rel="stylesheet" href="../stylesheets/header.css">
+    <link rel="stylesheet" href="../stylesheets/slider.css">
+    <link rel="stylesheet" href="../stylesheets/footer.css">
+    <title>Restaurant app</title>
+</head>
+<body>
+    <%- include('./partials/header') %>
+    <section class="banner_header">
+        <div class="banner_text_container_header">
+            <p>Welcome to</p>
+            <h3>Our restaurant </h3>
+        </div>
+    </section>
+    <section class="about_us_container_index">
+        <h4>About us</h4>
+        <h3>We Are The Modern Restaurant In Our City</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut adipisci libero, tempora vel error nesciunt facere odio ipsa voluptatum neque.</p>
+    </section>
+    <section class="slider_section_index">
+        <h4>Our services</h4>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="../images/wifi.webp" alt="wifi">
+                    <div class="text_img_container">
+                        <h3 class="slide-text">WiFi</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, numquam.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="../images/fresh.webp" alt="fresh">
+                    <div class="text_img_container">
+                        <h3 class="slide-text">Fresh environment</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, numquam.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="../images/chef.webp" alt="chef">
+                    <div class="text_img_container">
+                        <h3 class="slide-text">Creative and talented chefs</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, numquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="btn_section_index">
+       <button>See menu</button>
+    </section>
+
+    <%- include('./partials/footer') %>
+
+    <script src="../js/header.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="https://kit.fontawesome.com/f137d8c77f.js" crossorigin="anonymous"></script>
+</body>
+</html>

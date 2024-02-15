@@ -1,0 +1,17 @@
+footer{
+    width: 100vw;
+    height: 10rem;
+    background-color: #091a29;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.icons_footer{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
